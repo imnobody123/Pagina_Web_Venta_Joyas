@@ -1,0 +1,75 @@
+*{
+	font-family: cursive;
+}
+
+h2{
+	position: relative;
+	top: 100px;
+	text-align: center;
+	z-index: -1;
+}
+
+img{
+	border-radius: 10px;
+	position: relative;
+	top: 12px;
+	right: 0px;
+	width: 90%;
+	height: 70%;
+}
+
+.contenedorPrincipal{
+	position: relative;
+	width: 100%;
+	left: 350px;
+}
+
+#AnillosCompromiso, #AnillosBodas, #AnillosEternidad,
+#Gargantillas, #Collares, #Cadenas,
+#XVanos, #PrimeraComunion, #Bautizo, #Aretes,
+#RelojesHombre, #RelojesMujer, #RelojesUnisex{
+	display: none;
+}
+
+.contenedorProductos{
+	border-radius: 10px; 
+	position: relative;
+	top: 150px;
+	width: 300px;
+	height: 450px;
+	transition: background 300ms;
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	z-index: 1;
+
+	background: url("../icons/bolsa-de-la-compra.png") no-repeat 90% 93%;
+}
+
+.contenedorProductos:hover{
+	background: #c00505 url("../icons/bolsa-de-la-compra(blanco).png") no-repeat 90% 93%;
+	color: white;
+}
+
+#lblTitulo{
+	text-transform: lowercase;
+	font-family: cursive; 
+	font-size: 15px; 
+	font-style: italic;
+	line-height: 150%;
+	position: relative;
+	top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#lblPrecio{
+	font-family: cursive;
+	font-size: 20px; 
+	font-style: italic;
+	line-height: 150%;
+	position: relative;
+	top: 30px;
+}

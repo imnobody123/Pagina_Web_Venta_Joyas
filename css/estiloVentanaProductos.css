@@ -1,0 +1,192 @@
+.VentanadeProductos{
+	position: fixed;
+	top: 2%;
+	left: 4%;
+	width: 90%;
+	height: 95%;
+	border-radius: 22px;
+	z-index: 5;
+	display: none;
+	background: white;
+	overflow-y: auto;
+	scrollbar-width: none; /* Oculta el scrollbar en las nuevas versiones de firefox*/
+	overflow: -moz-scrollbars-none; /* Oculta el scrollbar en las versiones anteriores de firefox*/
+	-ms-overflow-style: none; /* Oculta el scrollbar en Microsoft Edge*/
+}
+
+/* Oculta las scrollbars en Google Chrome y Safari */
+.VentanadeProductos::-webkit-scrollbar{
+	display: none;
+}
+
+.TituloProducto{
+	position: absolute;
+	top: 5%;
+	left: 23%;
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.Precio{
+	position: absolute;
+	top: 18%;
+	left: 25%;
+	font-family: cursive;
+	font-size: 28px;
+	color: #990000;
+}
+
+.Medidas{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	font-family: cursive;
+	font-size: 22px;
+}
+
+.cantidad{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	font-family: cursive;
+	font-size: 22px;
+}
+
+.comboMedidas{
+	width: 140px;
+	height: 30px;
+	cursor: pointer;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	border-radius: 10px;
+	border: 1px solid #990000;
+	font: 300 10px/1.5 cursive;
+	font-size: 16px;
+	text-indent: 5px;
+	content: '\f078';
+	font-family: "FontAwesome";
+}
+
+.botonMenos{
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	width: 3%;
+	height: 30px;
+	background: #c00505;
+	border-radius: 5px;
+	border: 1px solid #c00505;
+	font-size: 20px;
+	transition: background 500ms;
+}
+
+.botonMas{
+	position: absolute;
+	top: 30%;
+	left: 67.9%;
+	width: 3%;
+	height: 30px;
+	background: #c00505;
+	border-radius: 5px;
+	border: 1px solid #c00505;
+	font-size: 20px;
+	transition: background 500ms;
+}
+
+#campoCantidad{
+	position: absolute;
+	top: 30%;
+	left: 63%;
+	width: 40%;
+	width: 60px;
+	border: 1px solid #c00505;
+	text-align: center;
+	font: 300 10px/1.5 cursive;
+	font-size: 16px;
+	pointer-events: none;
+}
+
+.BotonCompra{
+	position: absolute;
+	top: 48%;
+	left: 25%;
+	width: 10%;
+	height: 45px;
+	background: #c00505;
+	border-radius: 5px;
+	border: 1px solid #c00505;
+	font-size: 20px;
+	transition: background 500ms;
+}
+
+.BotonCompra:hover{
+	background: white;
+	color: #c00505;
+}
+
+.tablaDetalles{
+	position: absolute;
+	top: 59%;
+	left: 24%;
+	width: 60%;
+	font-family: cursive;
+}
+
+.tablaDetalles .caracteristicas{
+	text-align: right;
+	font-weight: bold;
+}
+
+.tablaDetalles th, td{
+	font-family: cursive;
+	padding: 15px;
+}
+
+.tablaDetalles tr:nth-child(even){
+	background: #e9e9e9;
+}
+
+#carritoCompras{
+	position: absolute;
+	top: 29%;
+	left: 74%;
+	width: 15%;
+	height: 45px;
+	font-family: cursive, 'FontAwesome';
+	font-size: 18px;
+	border: 2px solid #c00505;
+	border-radius: 8px;
+	background: white;
+	color: #c00505;
+	transition: 500ms; 
+}
+
+#carritoCompras:hover{
+	transform: scale(1.1);
+}
+
+#favoritos{
+	position: absolute;
+	top: 30%;
+	left: 93%;
+	cursor: pointer;
+	color: #c00505;
+}
+
+#cerrarVentana{
+	position: absolute;
+	right: 2%;
+	top: 3%;
+	cursor: pointer;
+	z-index: 4;
+}
+
+#imgJoya{
+	width: 250px;
+	height: 250px;
+	margin-left: 3%;
+	margin-top: 5%;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Formulario de contacto</title>
+<link href="../css/estiloMenuDesplegable.css" rel="stylesheet" type="text/css" />
+<link href="../css/EstiloMenuSuperior.css" rel="stylesheet" type="text/css" />
+<link href="../css/estiloBuzonSugerencias.css" rel="stylesheet" >
+<link href="../css/font-awesome.css"rel="stylesheet">
+
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/script.js"></script>
+</head>
+<body>
+    <header class="menuDesplegable">
+        <span id="buttonMenu" class="fa fa-arrow-left"></span>
+        <img src="../Imágenes/LogoBJTrans.png" id="imgLogoPri" />
+        <form>
+            <fieldset>
+                <input type="search" placeholder="Búsqueda">
+                <button type="submit"> <i class="fa fa-search"></i> </button>
+            </fieldset>
+        </form>
+
+        <a href="../Login.html" id="labelIniSe"> Iniciar Sesi&oacuten </a>
+        <a href="../Register.html" id="labelRegis"> Registrarse </a>                                                                 
+    </header>
+
+    <section class="form_wrap">
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> info.contact@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
+            </section>
+        </section>
+
+        <form action="" class="form_contact">
+            <h2 id="titleSend">Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names">
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" id="phone">
+
+                <label for="email">Correo electronico *</label>
+                <input type="text" id="email">
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje"></textarea>
+
+                <input type="button" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+
+</body>
+</html>
